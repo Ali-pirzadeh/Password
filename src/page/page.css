@@ -2,6 +2,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #ba9f9f;
@@ -16,6 +17,7 @@
     padding: 5px 8px;
     background-color: #fff;
     direction: rtl;
+    margin-bottom: 10px !important;
 }
 .input-fields input {
     border: none !important;
@@ -28,4 +30,25 @@
 .input-fields h3{
     cursor: pointer;
     padding: 0 8px;
+}
+.btn{
+    border: none;
+    background-color: #6a5ae0;
+    padding: 1rem 5rem;
+    color: white;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #ed9e00;
+}
+.error {
+    border: 1px solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
 }
